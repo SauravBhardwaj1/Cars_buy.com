@@ -8,7 +8,8 @@ const CarSchema = mongoose.Schema(
     colors: { type: String, required: true },
     mileage: { type: Number, required: true },
     power: { type: Number, required: true },
-    max_speed: { type: Number, required: true }
+    max_speed: { type: Number, required: true },
+    image: {type: String}
   },
   {
     versionKey: false,
